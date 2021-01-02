@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* CSS */
+html, body {margin: 0; background: #e8e9e4}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Header */
+header {background: #cdcbc2; color: #5b5a56; padding: 20px 0; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)}
+header > h1 {margin: 0 50px 0 10vw; display: inline}
+header > h3 {display: inline}
+header > .stop-reset-button {margin-right: 10vw; float: right}
+
+/* Chess.tsx */
+.chess-container {width: 80vw; margin: 50px 10vw; display: flex; justify-content: space-between; align-content: stretch}
+
+/* Controls.tsx */
+.controls-container {color: #5b5a56; padding: 0 50px 0 0}
+.section-no-space {margin-top: 0}
+.section-space {margin-top: 30px}
